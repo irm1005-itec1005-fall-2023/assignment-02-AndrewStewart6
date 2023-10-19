@@ -93,6 +93,7 @@ h3 {
 section {
   grid-column-start: 2;
   background-color: #be981b;
+  padding-bottom:1rem;
 }
 
 .footertext {
@@ -123,6 +124,7 @@ section {
 
 p {
   padding-left:1rem;
+  padding-bottom: 1rem;
 }
 
 table {
@@ -144,6 +146,69 @@ table {
 }
 
 .subscribe {
-  background-color: red;
-  border-radius:2rem;
+  background-color: darkred;
+  border-radius:5rem;
+  border-color:darkred;
+  font-size:x-large;
+}
+
+.calltoaction {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding:3rem;
+}
+
+.actiontext {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  padding-left:6rem;
+  padding-top:2rem;
+  font-size:xx-large;
+}
+
+.actionbutton {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  padding-top:8rem;
+  padding-left:2rem;
+}
+
+.actionimage {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  border-radius: 2rem;
+}
+
+.actionlogo {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  padding:1rem;
+  background-color:rgb(255, 153, 153);
+  border-radius:17rem;
+}
+
+.form {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+form {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.feedbacktype {
+  grid-column-start: 1;
+}
+
+.actionp {
+  grid-column-start: 1;
+  grid-column-end:5;
+  grid-row-start:1;
+  font-size:x-large;
+  text-align:center;
+  padding-top:26rem;
+  color:rgb(54, 151, 54)
 }
